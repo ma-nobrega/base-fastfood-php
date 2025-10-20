@@ -23,26 +23,26 @@ $paginaAtual = 'perfil';
   <h1>Perfil</h1>
 
   <section>
-    <form method="POST" action="#" novalidate>
+    <form method="POST">
       <label for="nome">Nome</label>
-      <input id="nome" type="text" name="nome" value="Matheus Nóbrega" required>
+      <input id="nome" type="text" name="nome" value="Matheus Nobrega" required>
 
       <label for="email">Email</label>
-      <input id="email" type="email" name="email" value="matheus@example.com" required>
+      <input id="email" type="email" name="email" value="matheus@gmail.com" required>
 
       <label for="bairro">Bairro</label>
       <input id="bairro" type="text" name="bairro" value="Centro" required>
 
       <label for="logradouro">Logradouro</label>
-      <input id="logradouro" type="text" name="logradouro" value="Rua das Flores" required>
+      <input id="logradouro" type="text" name="logradouro" value="Rua dos Deuses" required>
 
       <label for="numero">Número</label>
       <input id="numero" type="text" name="numero" value="100" required>
 
       <label for="complemento">Complemento</label>
-      <input id="complemento" type="text" name="complemento" value="Apto 12">
+      <input id="complemento" type="text" name="complemento" value="Apto, bloco, casa...">
 
-      <button type="submit" class="botao">Atualizar</button>
+      <button type="submit">Atualizar</button>
     </form>
   </section>
 

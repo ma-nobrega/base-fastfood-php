@@ -46,8 +46,8 @@ $paginaAtual = 'carrinho';
       <!-- Formulário apenas visual -->
       <form action="#" method="post" onsubmit="return false;">
         <h3>Selecione o Método de Pagamento:</h3>
-        <div class="pagar">
-          <label for="metodo_pagamento" class="sr-only">Método de pagamento</label>
+        <div>
+          <label for="metodo_pagamento">Método de pagamento</label>
           <select id="metodo_pagamento" name="metodo_pagamento" disabled>
             <option value="" selected>Escolha...</option>
             <option value="credito">Crédito</option>
@@ -55,9 +55,7 @@ $paginaAtual = 'carrinho';
             <option value="dinheiro">Dinheiro</option>
             <option value="pix">PIX</option>
           </select>
-          <div class="botao">
-            <input type="submit" value="Finalizar Pedido" disabled>
-          </div>
+          <input type="submit" value="Finalizar Pedido" disabled>
         </div>
       </form>
 

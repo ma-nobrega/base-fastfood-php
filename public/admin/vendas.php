@@ -23,13 +23,13 @@ $paginaAtual = "vendas";
 <body>
   <?php include '../../app/components/header.php'; ?>
 
-  <main class="container">
+  <main>
     <h1>Gerenciar Vendas</h1>
 
-    <div class="lista-vendas">
+    <div class="vendas">
 
       <!-- Venda fake 1 -->
-      <div class="venda-card">
+      <div class="venda">
         <h2>Pedido</h2>
         <h2>N° 12345</h2>
 
@@ -44,7 +44,7 @@ $paginaAtual = "vendas";
         <p><strong>STATUS:</strong> Entregue</p>
 
         <!-- Formulário apenas visual (desativado) -->
-        <form action="#" method="POST" class="form-status">
+        <form action="#" method="POST">
           <input type="hidden" name="pedido_id" value="12345">
           <label for="status-12345">Alterar Status:</label>
           <select id="status-12345" name="status" disabled>
@@ -57,7 +57,7 @@ $paginaAtual = "vendas";
           <input type="submit" value="Atualizar" disabled>
         </form>
 
-        <a href="detalhes-venda.php?id=12345" class="btn-detalhes">Ver Detalhes</a>
+        <a href="detalhes-venda.php?id=12345">Ver Detalhes</a>
       </div>
 
     </div>

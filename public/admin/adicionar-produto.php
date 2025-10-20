@@ -18,7 +18,7 @@ require_once __DIR__ . '/../../app/config/auth.php';
 <body>
   <?php include '../../app/components/header.php'; ?>
 
-  <div class="container">
+  <main>
     <h1>Adicionar Produto</h1>
 
     <form method="POST" enctype="multipart/form-data" class="editar-produto" action="#">
@@ -44,7 +44,7 @@ require_once __DIR__ . '/../../app/config/auth.php';
         Salvar
       </button>
     </form>
-  </div>
+  </main>
 
   <?php include '../../app/components/footer.php'; ?>
 </body>

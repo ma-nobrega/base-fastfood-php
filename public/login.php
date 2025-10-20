@@ -26,7 +26,7 @@ $paginaAtual = 'login';
     <h1>Login</h1>
 
     <div>
-      <form action="#" method="POST" novalidate>
+      <form method="POST">
         <label for="email">Email:</label>
         <input id="email" type="email" name="email" placeholder="seuemail@exemplo.com" required>
 

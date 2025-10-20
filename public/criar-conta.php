@@ -37,7 +37,7 @@ require_once __DIR__ . '/../app/config/auth.php';
       <input type="text" name="bairro" placeholder="Ex.: Centro" required>
 
       <label>Complemento</label>
-      <input type="text" name="complemento" placeholder="Apto, bloco, casa... (opcional)">
+      <input type="text" name="complemento" placeholder="Apto, bloco, casa...">
 
       <label>Número</label>
       <input type="number" name="numero" placeholder="Ex.: 123" required>

@@ -26,7 +26,7 @@ $paginaAtual = 'vendas';
     <h1>Detalhes da Venda</h1>
 
 
-    <section class="bloco">
+    <section>
       <h2>Pedido</h2>
       <h2>N° 12345</h2>
 
@@ -38,7 +38,7 @@ $paginaAtual = 'vendas';
     </section>
 
     <!-- Endereço -->
-    <section class="endereco bloco">
+    <section>
       <h3>Endereço de Entrega</h3>
       <p><strong>Bairro:</strong> Centro</p>
       <p><strong>Logradouro:</strong> Rua das Flores</p>

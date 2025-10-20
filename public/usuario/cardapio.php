@@ -2,8 +2,8 @@
 require_once __DIR__ . '/../../app/config/conexao.php';
 require_once __DIR__ . '/../../app/config/auth.php';
 
-// Para o header destacar o menu atual
 $paginaAtual = "cardapio";
+
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
