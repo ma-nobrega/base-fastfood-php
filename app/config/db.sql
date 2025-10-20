@@ -15,7 +15,7 @@ CREATE TABLE usuarios (
     logradouro VARCHAR(255),
     numero VARCHAR(10),
     complemento VARCHAR(255),
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    criado_em TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
 -- Criação da tabela de produtos
@@ -26,7 +26,7 @@ CREATE TABLE produtos (
     preco DECIMAL(10, 2) NOT NULL,
     imagem VARCHAR(255),
     status ENUM('ativo', 'inativo') DEFAULT 'ativo',
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    criado_em TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
 -- Criação da tabela de carrinho
@@ -37,7 +37,7 @@ CREATE TABLE carrinho (
     quantidade INT DEFAULT 1,
     FOREIGN KEY (usuario_id) REFERENCES usuarios(id),
     FOREIGN KEY (produto_id) REFERENCES produtos(id),
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    criado_em TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
 -- Criação da tabela de pedidos
@@ -47,7 +47,7 @@ CREATE TABLE pedidos (
     total DECIMAL(10, 2) NOT NULL,
     metodo_pagamento ENUM('dinheiro','debito','credito','pix'),
     status ENUM('pendente', 'em andamento', 'saiu para entrega', 'entregue', 'cancelado') DEFAULT 'pendente',
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    criado_em TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     FOREIGN KEY (usuario_id) REFERENCES usuarios(id)
 );
 
