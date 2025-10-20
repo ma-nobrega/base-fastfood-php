@@ -23,7 +23,7 @@ require_once __DIR__ . '/../app/config/auth.php';
   <div class="container">
     <h1>Criar conta</h1>
 
-    <form method="POST" action="#" novalidate>
+    <form method="POST">
       <label>Email</label>
       <input type="email" name="email" placeholder="seuemail@exemplo.com" required>
 

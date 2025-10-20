@@ -24,7 +24,7 @@ $paginaAtual = 'inicio';
     <main>
         <h1>Editar produto #1</h1>
 
-        <form method="POST" enctype="multipart/form-data" class="editar-produto" action="#" novalidate>
+        <form method="POST" enctype="multipart/form-data" class="editar-produto">
             <label>Nome:</label>
             <input type="text" name="nome" value="Donut de Chocolate" required>
 

@@ -21,7 +21,7 @@ require_once __DIR__ . '/../../app/config/auth.php';
   <main>
     <h1>Adicionar Produto</h1>
 
-    <form method="POST" enctype="multipart/form-data" class="editar-produto" action="#">
+    <form method="POST" enctype="multipart/form-data" class="editar-produto">
       <label>Nome</label>
       <input type="text" name="nome" placeholder="Ex.: Donut de Chocolate" required>
 

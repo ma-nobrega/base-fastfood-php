@@ -44,7 +44,7 @@ $paginaAtual = 'carrinho';
       <h2>Total: R$ 43,30</h2>
 
       <!-- Formulário apenas visual -->
-      <form action="#" method="post" onsubmit="return false;">
+      <form method="POST">
         <h3>Selecione o Método de Pagamento:</h3>
         <div>
           <label for="metodo_pagamento">Método de pagamento</label>
