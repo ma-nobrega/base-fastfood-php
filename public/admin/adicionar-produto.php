@@ -9,7 +9,7 @@ require_once __DIR__ . '/../../app/config/auth.php';
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="../assets/css/reset.css">
-  <link rel="stylesheet" href="../assets/css/editar-produto.css">
+  <link rel="stylesheet" href="../assets/css/adicionar-produto.css">
   <link rel="stylesheet" href="../assets/css/components/header.css">
   <link rel="stylesheet" href="../assets/css/components/footer.css">
   <title>Adicionar Produto - Fastfood</title>
